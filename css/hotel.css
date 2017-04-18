@@ -1,0 +1,61 @@
+.container {
+  max-width: 1000px;
+}
+.form__group input[type="text"],
+.form__group input[type="tel"],
+.form__group input[type="url"],
+.form__group select {
+  width: 200px;
+  padding: 5px;
+  font-size: 1em; }
+
+.table tbody tr td.button_block {
+  width: 100px;}
+.red {
+    color: #FF0000; }
+.icon_img {
+  display: block;
+  padding: 1px 0 0 0;
+  width: 20px;
+  height: 20px;
+  float: left; }
+  .icon_img img {
+    display: block;
+    width: 100%; } 
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
